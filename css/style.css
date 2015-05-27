@@ -11,8 +11,8 @@ p {
     font-size: 16px;
 }
 .bear{
-	width:400px;
-	border-radius: 195px;
-	-webkit-border-radius: 195px;
-	-moz-border-radius: 195px;
+	width:275px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
 }
