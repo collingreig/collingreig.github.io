@@ -12,3 +12,9 @@ p {
 body{
     text-align: center;
 }
+img{
+	width:395px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
