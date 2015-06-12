@@ -1,9 +1,10 @@
 body { 
     background-color: #efefef;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Vollkorn', serif;
 	text-align:center;
 }
 h1 {
+	font-family: 'Montserrat', sans-serif;
     color: #0c0c0c;
     font-size: 36px;
 }
