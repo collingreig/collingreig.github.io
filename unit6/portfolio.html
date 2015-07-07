@@ -5,7 +5,7 @@
     <head>
         <rel="stylesheet" type="text/css" href="style.css" />
         <meta http-equiv="content-type" content="text/php; charset=utf-8" />
-<style>import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+        <style>import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
 
 body {
   margin:0;
@@ -102,10 +102,7 @@ nav.menu ul a:hover {
   background:#16a085;
   text-decoration: underline;
 }
-.zoelogo{
-	margin:0 auto;
-	display:block;
-}
+
 .sidebar {
   width:275px;
   float:right;
@@ -145,7 +142,7 @@ nav.menu ul a:hover {
 }
 
 .conteudo {
-  width:94%;
+  width:600px;
   margin:25px auto;
   padding:25px;
   background: #fff;
@@ -189,11 +186,6 @@ nav.menu ul a:hover {
   margin: -10px 0 15px;
   font-size: 12px;
   text-transform: uppercase;
-}
-  .conteudo img {
-  margin:0 auto;
-  display:block;
-  padding:25px;
 }
 
 @media screen and (max-width: 960px) {
@@ -249,7 +241,11 @@ nav.menu ul a {
   border:1px solid #dedede;
 }
 
-
+.conteudo img {
+  margin:0 0 25px -5%;
+  max-width: 110%;
+  min-width: 110%;
+}
   
     .conteudo .continue-lendo:hover {
   margin-left:0;
@@ -277,11 +273,80 @@ nav.menu ul a {
   }
   
   .conteudo img {
+  margin:-5% 0 25px -5%;
+}
+
+  
+}
+#title {
+  display:inline;
+  font-family:helvetica;
+  font-size:72px;
+  margin-left: 50px;
+}
+
+.gallery {
+  height:234px;
+  width:234px;
+  border-style:none;
+}
+
+.gallery:hover {
+  opacity:0.4;
+}
+
+
+
+hr {
+  height:3px;
+  background-color:gray;
+  border-style:none;
+
+}
+
+.guide {
+display:inline;
+float:right;
+margin-top:70px;
+font-family:helvetica;
+color:black;
+}
+
+.guide:hover{
+  opacity:0.4;
+}
+
+a {
+  text-decoration:none;
+}
+
+#birthdays {
+  display:inline-block;
+  float:left;
+  z-index:10;
+  position:relative;
+  left:300px;
+  top:100px;
+  font-family:helvetica;
+}
+ .conteudo img {
   margin:0 auto;
   display:block;
 }
+  .conteudo img {
+  margin:0 auto;
+  display:block;
+  padding:25px;
 }
-  
+.zoelogo{
+	margin:0 auto;
+	display:block;
+}
+.imageTitles p{
+  text-align:center;
+  font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  color:#1abc9c;
+}
 </style>
         <title>Zoë Babian Photography</title>
     </head>
@@ -305,44 +370,56 @@ nav.menu ul a {
 <nav class="menu">
   <ul>
     <li>
-      <a href="/unit6/portolio.html">Home</a>
+      <a href="#">Home</a>
     </li>
     <li>
-      <a href="#">Blog</a>
+      <a href="/unit6/portolio.html">Blog</a>
     </li>
   </ul>
   </nav>
-    <div class="blog">
-  <div class="conteudo">
-    <h1> Photobooth </h1>
-    <hr>
-  <img src="https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xfp1/t51.2885-15/10727677_741724742572160_1377006520_n.jpg">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-    <a href="#" class="continue-lendo">Read more →</a>
-  </div>
-    <div class="conteudo">
-    <h1> Beyond Brunch in Brooklyn </h1>
-    <hr>
-    <img src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/t51.2885-15/10995257_692164850893935_1445883222_n.jpg">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-      <a href="#" class="continue-lendo">Read more →</a>
-  </div>
-  </div>
-  <footer>
-  <p style="text-align:center;">Copyright 2015 Zoë Babian Photography</p>
-</footer> 
+<div class="imageTitles">
+<table>
+  <tr>
+    <td>
+     <img class="gallery" src="https://download.unsplash.com/photo-1431051047106-f1e17d81042f"></img>
+     <p>All Along The Watchtower</p>
+    </td>
+    <td>
+     <img class="gallery" src="https://download.unsplash.com/photo-1429616588302-fec569e203ce"></img>
+     <p>Knocking on Heaven's Door</p>
+    </td>
+    <td>
+      <img class="gallery" src="https://download.unsplash.com/photo-1429277096327-11ee3b761c93"></img>
+      <p>Like a Rolling Stone</p>
+    </td>
+<td>
+  <img class="gallery" src="https://download.unsplash.com/photo-1424746219973-8fe3bd07d8e3"></img>
+  <p>Hurricane</p>
+</td>
+  </tr>
+<tr>
+  <td>
+    <img class="gallery" src="https://download.unsplash.com/photo-1431184052543-809fa8cc9bd6"></img>
+    <p>Mr. Tambourine Man</p>
+  </td>
+   <td>
+     <img class="gallery" src="https://download.unsplash.com/photo-1430126833726-4a091c572f3c"></img>
+     <p>It Ain't Me, Babe</p>
+  </td>
+   <td>
+     <img class="gallery" src="https://download.unsplash.com/photo-1428930377079-45a584b6dd6b"></img>
+     <p>The Times They Are A-Changin'</p>
+  </td>
+   <td>
+     <img class="gallery" src="https://download.unsplash.com/photo-1428279148693-1cf2163ed67d"></img>
+     <p>Shelter From The Storm</p>
+  </td>
+</tr>
+</table>
 </div>
-
-    </body>
+<footer>
+  <p style="text-align:center;">Copyright 2015 Zoë Babian Photography</p>
+</footer>    
+</body>
 
 </html>
