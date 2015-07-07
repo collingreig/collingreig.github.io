@@ -1,15 +1,15 @@
 body { 
-	font-family: 'Josefin Slab', serif;
-	background-color: #efefef;
+    background-color: #efefef;
+	font-family: 'Vollkorn', serif;
 	text-align:center;
 }
 h1 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
     color: #0c0c0c;
     font-size: 36px;
 }
 h3{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight:400;
 	}
 p {
