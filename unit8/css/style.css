@@ -1,6 +1,11 @@
 body { 
     background-color: #efefef;
     font-family: 'Merriweather', serif;
+    padding: 25px;
+}
+.wrapper{
+  width:100%;
+  max-width:960px;
 }
 h1 {
     color: #0c0c0c;
@@ -14,6 +19,7 @@ h3{
 p {
     color: #343434;
     font-size: 16px;
+    line-height: 25px;
 }
 .bear{
 	width:200px;
