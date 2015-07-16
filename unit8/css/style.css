@@ -29,10 +29,12 @@ p {
   font-size:38px;
 }
 .bear{
-	width:200px;
+	width:250px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
+  display:block;
+  margin:auto;
 }
 li{
 	text-align:left;
