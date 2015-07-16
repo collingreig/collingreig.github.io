@@ -70,8 +70,10 @@ li{
 }
 @media screen and (max-width: 650px){
 .wrapper{
-  background-color: #efefef;
+  background-color:#fff;
   width: 100%;
+  padding:0;
+  box-shadow: none;
 }  
 body { 
   margin: 0 auto;
