@@ -72,8 +72,6 @@ li{
 .wrapper{
   background-color: #efefef;
   width: 100%;
-  max-width: 960px;
-  padding: 5% 8%;
 }  
 body { 
   margin: 0 auto;
