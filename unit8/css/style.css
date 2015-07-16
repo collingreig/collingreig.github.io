@@ -21,6 +21,9 @@ p {
     font-size: 16px;
     line-height: 25px;
 }
+.large-letter{
+  font-size:38px;
+}
 .bear{
 	width:200px;
 	border-radius: 150px;
