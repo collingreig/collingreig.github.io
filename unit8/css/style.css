@@ -1,7 +1,9 @@
 body { 
-    background-color: #efefef;
-    font-family: 'Merriweather', serif;
-    padding: 25px;
+  background-color: #efefef;
+  font-family: 'Merriweather', serif;
+  padding: 25px;
+  margin: 0 auto;
+  width: 50%;
 }
 .wrapper{
   width:100%;
