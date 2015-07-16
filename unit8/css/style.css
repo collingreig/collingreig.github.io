@@ -8,7 +8,7 @@ body {
     background-color: #efefef;
     width: 100%;
     max-width: 960px;
-    padding: 30px 20px 30px 65px;
+    padding: 5% 8%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 h1 {
@@ -73,7 +73,7 @@ li{
   background-color: #efefef;
   width: 100%;
   max-width: 960px;
-  padding: 30px 20px 30px 65px;
+  padding: 5% 8%;
 }  
 body { 
   margin: 0 auto;
