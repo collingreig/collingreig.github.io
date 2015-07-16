@@ -52,6 +52,9 @@ li{
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
+footer{
+  text-align:center;
+}
 
 .btn:hover {
   background: #627043;
