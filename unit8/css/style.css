@@ -56,3 +56,12 @@ li{
   background: #627043;
   text-decoration: none;
 }
+@media screen and (max-width: 1300px){
+.wrapper{
+  background-color: #efefef;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px 20px 30px 65px;
+}
+
+}
